@@ -1,0 +1,110 @@
+news-aggregator.o: news-aggregator.cc \
+ /usr/class/cs110/include/libxml2/libxml/parser.h \
+ /usr/class/cs110/include/libxml2/libxml/xmlversion.h \
+ /usr/class/cs110/include/libxml2/libxml/xmlexports.h \
+ /usr/class/cs110/include/libxml2/libxml/tree.h \
+ /usr/class/cs110/include/libxml2/libxml/xmlstring.h \
+ /usr/class/cs110/include/libxml2/libxml/xmlregexp.h \
+ /usr/class/cs110/include/libxml2/libxml/dict.h \
+ /usr/class/cs110/include/libxml2/libxml/hash.h \
+ /usr/class/cs110/include/libxml2/libxml/valid.h \
+ /usr/class/cs110/include/libxml2/libxml/xmlerror.h \
+ /usr/class/cs110/include/libxml2/libxml/list.h \
+ /usr/class/cs110/include/libxml2/libxml/xmlautomata.h \
+ /usr/class/cs110/include/libxml2/libxml/entities.h \
+ /usr/class/cs110/include/libxml2/libxml/encoding.h \
+ /usr/class/cs110/include/libxml2/libxml/xmlIO.h \
+ /usr/class/cs110/include/libxml2/libxml/globals.h \
+ /usr/class/cs110/include/libxml2/libxml/SAX.h \
+ /usr/class/cs110/include/libxml2/libxml/xlink.h \
+ /usr/class/cs110/include/libxml2/libxml/SAX2.h \
+ /usr/class/cs110/include/libxml2/libxml/xmlmemory.h \
+ /usr/class/cs110/include/libxml2/libxml/threads.h \
+ /usr/class/cs110/include/libxml2/libxml/catalog.h \
+ /usr/class/cs110/local/include/ostreamlock.h \
+ /usr/class/cs110/local/include/semaphore.h article.h rss-feed-list.h \
+ rss-feed.h rss-index.h html-document.h html-document-exception.h \
+ rss-feed-exception.h rss-feed-list-exception.h news-aggregator-utils.h \
+ /usr/class/cs110/local/include/string-utils.h
+news-aggregator-utils.o: news-aggregator-utils.cc news-aggregator-utils.h
+stream-tokenizer.o: stream-tokenizer.cc stream-tokenizer.h \
+ /usr/class/cs110/include/libxml2/libxml/xmlstring.h \
+ /usr/class/cs110/include/libxml2/libxml/xmlversion.h \
+ /usr/class/cs110/include/libxml2/libxml/xmlexports.h
+rss-feed.o: rss-feed.cc /usr/class/cs110/include/libxml2/libxml/tree.h \
+ /usr/class/cs110/include/libxml2/libxml/xmlversion.h \
+ /usr/class/cs110/include/libxml2/libxml/xmlexports.h \
+ /usr/class/cs110/include/libxml2/libxml/xmlstring.h \
+ /usr/class/cs110/include/libxml2/libxml/xmlregexp.h \
+ /usr/class/cs110/include/libxml2/libxml/dict.h \
+ /usr/class/cs110/include/libxml2/libxml/xmlmemory.h \
+ /usr/class/cs110/include/libxml2/libxml/threads.h \
+ /usr/class/cs110/include/libxml2/libxml/globals.h \
+ /usr/class/cs110/include/libxml2/libxml/parser.h \
+ /usr/class/cs110/include/libxml2/libxml/hash.h \
+ /usr/class/cs110/include/libxml2/libxml/valid.h \
+ /usr/class/cs110/include/libxml2/libxml/xmlerror.h \
+ /usr/class/cs110/include/libxml2/libxml/list.h \
+ /usr/class/cs110/include/libxml2/libxml/xmlautomata.h \
+ /usr/class/cs110/include/libxml2/libxml/entities.h \
+ /usr/class/cs110/include/libxml2/libxml/encoding.h \
+ /usr/class/cs110/include/libxml2/libxml/xmlIO.h \
+ /usr/class/cs110/include/libxml2/libxml/SAX.h \
+ /usr/class/cs110/include/libxml2/libxml/xlink.h \
+ /usr/class/cs110/include/libxml2/libxml/SAX2.h \
+ /usr/class/cs110/include/libxml2/libxml/xpath.h \
+ /usr/class/cs110/include/libxml2/libxml/xpathInternals.h rss-feed.h \
+ article.h rss-feed-exception.h \
+ /usr/class/cs110/local/include/string-utils.h
+rss-feed-list.o: rss-feed-list.cc \
+ /usr/class/cs110/include/libxml2/libxml/tree.h \
+ /usr/class/cs110/include/libxml2/libxml/xmlversion.h \
+ /usr/class/cs110/include/libxml2/libxml/xmlexports.h \
+ /usr/class/cs110/include/libxml2/libxml/xmlstring.h \
+ /usr/class/cs110/include/libxml2/libxml/xmlregexp.h \
+ /usr/class/cs110/include/libxml2/libxml/dict.h \
+ /usr/class/cs110/include/libxml2/libxml/xmlmemory.h \
+ /usr/class/cs110/include/libxml2/libxml/threads.h \
+ /usr/class/cs110/include/libxml2/libxml/globals.h \
+ /usr/class/cs110/include/libxml2/libxml/parser.h \
+ /usr/class/cs110/include/libxml2/libxml/hash.h \
+ /usr/class/cs110/include/libxml2/libxml/valid.h \
+ /usr/class/cs110/include/libxml2/libxml/xmlerror.h \
+ /usr/class/cs110/include/libxml2/libxml/list.h \
+ /usr/class/cs110/include/libxml2/libxml/xmlautomata.h \
+ /usr/class/cs110/include/libxml2/libxml/entities.h \
+ /usr/class/cs110/include/libxml2/libxml/encoding.h \
+ /usr/class/cs110/include/libxml2/libxml/xmlIO.h \
+ /usr/class/cs110/include/libxml2/libxml/SAX.h \
+ /usr/class/cs110/include/libxml2/libxml/xlink.h \
+ /usr/class/cs110/include/libxml2/libxml/SAX2.h \
+ /usr/class/cs110/include/libxml2/libxml/xpath.h \
+ /usr/class/cs110/include/libxml2/libxml/xpathInternals.h rss-feed-list.h \
+ rss-feed-list-exception.h
+html-document.o: html-document.cc \
+ /usr/class/cs110/include/libxml2/libxml/tree.h \
+ /usr/class/cs110/include/libxml2/libxml/xmlversion.h \
+ /usr/class/cs110/include/libxml2/libxml/xmlexports.h \
+ /usr/class/cs110/include/libxml2/libxml/xmlstring.h \
+ /usr/class/cs110/include/libxml2/libxml/xmlregexp.h \
+ /usr/class/cs110/include/libxml2/libxml/dict.h \
+ /usr/class/cs110/include/libxml2/libxml/xmlmemory.h \
+ /usr/class/cs110/include/libxml2/libxml/threads.h \
+ /usr/class/cs110/include/libxml2/libxml/globals.h \
+ /usr/class/cs110/include/libxml2/libxml/parser.h \
+ /usr/class/cs110/include/libxml2/libxml/hash.h \
+ /usr/class/cs110/include/libxml2/libxml/valid.h \
+ /usr/class/cs110/include/libxml2/libxml/xmlerror.h \
+ /usr/class/cs110/include/libxml2/libxml/list.h \
+ /usr/class/cs110/include/libxml2/libxml/xmlautomata.h \
+ /usr/class/cs110/include/libxml2/libxml/entities.h \
+ /usr/class/cs110/include/libxml2/libxml/encoding.h \
+ /usr/class/cs110/include/libxml2/libxml/xmlIO.h \
+ /usr/class/cs110/include/libxml2/libxml/SAX.h \
+ /usr/class/cs110/include/libxml2/libxml/xlink.h \
+ /usr/class/cs110/include/libxml2/libxml/SAX2.h \
+ /usr/class/cs110/include/libxml2/libxml/HTMLparser.h \
+ /usr/class/cs110/include/libxml2/libxml/xpath.h \
+ /usr/class/cs110/include/libxml2/libxml/xpathInternals.h html-document.h \
+ html-document-exception.h stream-tokenizer.h
+rss-index.o: rss-index.cc rss-index.h article.h

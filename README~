@@ -1,0 +1,38 @@
+Multi-threaded RSS Feed News Aggregator
+Sample Usage:./news-aggregator large-feed.xml
+
+Enter a search term [or just hit <enter> to quit]: economy
+That term appears in 35 articles. Here are the top 15 of them:
+1.) "Job market resilience eases growth concerns" [appears 17
+times]. "http://feeds.chicagotribune.com/~r/chicagotribune/news/nationworl.....1.htm"
+2.) "U.S. economy adds 165,000 jobs in April" [appears 8
+times]. "http://feeds.latimes.com/~r/latimes/news/~3/2RZf_632I-M/story01.htm"
+3.) "Cash still king in China, largest bill is worth $16" [appears 4
+times]. "http://seattletimes.nwsource.com/html/nationworld/2020918120_chin.....n=rss"
+4.) "Buffett says people will call Berkshire when he's gone" [appears 3
+times]. "http://feeds.chicagotribune.com/~r/chicagotribune/news/nationworl.....1.htm"
+5.) "California may go forward without a financial reserve" [appears 3
+times]. "http://feeds.latimes.com/~r/latimes/news/~3/m8RSqmKTa8M/story01.htm"
+6.) "Obama wraps up Latin trip with an eye back home" [appears 3
+times]. "http://seattletimes.nwsource.com/html/nationworld/2020914348_aplt.....n=rss"
+7.) "California tax revenue yields multibillion-dollar surplus" [appears 2
+times]. "http://feeds.latimes.com/~r/latimes/news/~3/bFC8FynAuM4/story01.htm"
+8.) "s trip to Mexico hints at new balance of power" [appears 2
+times]. "http://feeds.washingtonpost.com/c/34656/f/636708/s/2b7ace83/l/0L0.....1.htm"
+9.) "Warren Buffett leads annual meeting like no other" [appears 2
+times]. "http://seattletimes.nwsource.com/html/businesstechnology/20209213.....n=rss"
+10.) "Harvard professor apologizes for remarks about Keynes" [appears 2
+times]. "http://seattletimes.nwsource.com/html/nationworld/2020924281_sorr.....n=rss"
+11.) "Florida Legislature concludes in a burst of bipartisanship" [appears
+2
+times]. "http://www.miamiherald.com/2013/05/03/3379285/upbeat-lawmakers-ce......html"
+12.) "If named transportation secretary, Foxx oversees regulator" [appears
+2 times].
+2
+"http://www.newsobserver.com/2013/05/04/2871195/if-named-transport.....k=rss"
+13.) "s cap & groan time" [appears 2 times].
+"http://www.nypost.com/p/news/business/it_cap_groan_time_nO6yKVt81.....iness"
+14.) "Marathon bombing suspect Tamerlan Tsarnaev died.....icate" [appears
+1
+time]. "http://feeds.boston.com/c/35022/f/646891/s/2b81283d/l/0L0Sboston0.....1.htm"
+15.) "Beverly's own American idol comes home" [appears 1 time]. "http://feeds.boston.com/c/35022/f/646891/s/2b84a294/l/0Lboston0N0.....1.htm"ItObama
